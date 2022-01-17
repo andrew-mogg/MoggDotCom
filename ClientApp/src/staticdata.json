@@ -1,0 +1,48 @@
+{
+
+    "projects": [
+        {
+            "tools": "Angular, RxJs, .Net Core, MsSql, Java, SASS",
+            "company": "TIAA Bank | Jan 2018 - Present",
+            "name": "Mortgage Servicing Applications",
+            "image": "mortgage-account-summary",
+            "description": "Developed key Angular components and Java Restful APIs for our team's complete rewrite of the bank's online servicing platform that allows our 300,000+ mortgage clients to access their mortgage account. In the middle of 2019, I took over as the lead developer of this app where my duties grew to handle all future enhancements and manage all deployments."
+        },
+        {
+            "tools": ".Net Core, MsSql, Java, Mulesoft",
+            "company": "TIAA Bank | December 2019 - Present",
+            "name": "Account Management Microservices",
+            "image": "send-wire",
+            "description": "Implemented a system that comprised of 1 Angular front end, 1 Java Spring app, and 12 .Net Core microservices that allows banking customers to perform self servicing features like debit card management, check orders, and wire transfers. Integrated our microservices with internal and vendor APIs using Mulesoft and also designed many of the relational databases used for request logging and operation reporting."
+        },
+        {
+            "tools": "Angular, RxJs, SASS, Java",
+            "company": "TIAA Bank | Jan 2018 - Present",
+            "name": "Web Registration Angular App",
+            "image": "web-registration",
+            "description": "Coded the Angular application for customers to register for online access with features like reactive forms, session management, two factor authentication, and credentials setup. When Everbank was acquired by TIAA I rebranded the entire app to the new TIAA Bank design standards. Currently, I maintain the registration rules in the back-end service as business requirements change. You can view my work at <a href='https://register.tiaabank.com/' target='_blank'>register.tiaabank.com</a>."
+        },
+        {
+            "tools": "Azure, Docker, Openshift",
+            "company": "TIAA Bank | Jan 2018 - Nov 2019",
+            "name": "Azure DevOps Release Management",
+            "image": "azure-devOps",
+            "description": "Our team had the first application to run on the RedHat Openshift containerization platform in our organization. We also were the first ones to create .Net core and Java builds for our 15 applications with automated release pipelines to our DEV and QA environments, significantly improving our ability to release code for our QA team."
+        },
+        {
+            "tools": "React, Gatsby, Netlify, GraphQL",
+            "company": "Personal Project | January 2021 - Present",
+            "name": "andrewmogg.com",
+            "image": "mogg-site",
+            "description": "With a mostly Angular, Azure, and .Net background in my professional career, I wanted to build my personal site with different tech. Gatsby is a great tool to build a static site and gave me a fun way to learn the latest web technologies like ReactJS, Webpack, GraphQL and ES6+ Javascript. Combining it with Netlify gave it a seamless way to build and deploy my site."
+        }
+        ,
+        {
+            "tools": "SwiftUI, Redux",
+            "company": "Personal Project | June 2020 - Present",
+            "name": "Par Pros iOS",
+            "image": "parProsIntro_iphone12black_portrait",
+            "description": "Since I no longer play baseball, I have taken up golf as my competitive outlet. My co-worker already had a robust back-end API that records your golfing history with your friends and calculates over 100 different stats so that users can track their golf skills improvement. We both wanted to learn a fun, new tech stack so we utilized the existing API into a back end for a mobile golf app."
+        }
+    ]
+}

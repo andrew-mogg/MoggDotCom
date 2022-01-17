@@ -1,0 +1,97 @@
+.Header {
+    position: fixed;
+    width: 100%;
+    padding: 50px 0;
+    z-index: 100;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
+    display: flex;
+    flex-direction: row;
+}
+
+.HeaderLogo {
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+    padding: 0 50px;
+    color: #006778;
+    font-size: 24px;
+    line-height: 1.5;
+    font-size:24px;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    color: #006778;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.HeaderLogoHidden {
+   display: none;
+}
+
+.HeaderGroup {
+    max-width: 350px;
+    margin: 0 50px 0 auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.HeaderScrolled {
+    background: rgba(0,0,0, 0.8);
+    padding: 15px 0;
+    backdrop-filter: blur(20px);
+}
+
+.Header a {
+    color: white;
+    font-weight: 700;
+    margin: 0 20px;
+}
+
+.Header button {
+    padding: 8px 20px;
+    font-size: 20px;
+    background: #D7A22A;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    cursor: pointer;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.25);
+}
+
+.Header button:hover {
+    background: #D7A22A;
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.25);
+    transform: translateY(3px) rotate(30deg) scale(1.2,1.2);
+}
+
+@media (max-width: 640px) {
+    .HeaderScrolled {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .HeaderLogo {
+        margin: 0 auto 10px;
+    }
+
+    .Header a {
+        margin: 0 15px;
+    }
+
+    .HeaderGroup {
+        margin: 0 auto 0 auto;
+    }
+    
+}

@@ -1,0 +1,22 @@
+/* .Social:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 30px 60px rgba(0,0,0, 0.5);
+} */
+
+.Social img {
+    width: 30px;
+}
+
+.Social:hover {
+    transform: translateY(3px) rotate(30deg) scale(1.2,1.2);
+}
+
+
+
+/* .social-icons {
+    background: #006778;
+} */
+
+/* .Social:hover img {
+    transform: translateY(-20px);
+} */
